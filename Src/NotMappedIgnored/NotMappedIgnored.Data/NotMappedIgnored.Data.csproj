@@ -107,6 +107,11 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\20160822211835_FirstMigration.cs" />
+    <Compile Include="Migrations\20160822211835_FirstMigration.Designer.cs">
+      <DependentUpon>20160822211835_FirstMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\MyContextModelSnapshot.cs" />
     <Compile Include="MyContext.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
